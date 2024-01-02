@@ -13,7 +13,7 @@ import java.util.*;
 //} Driver Code Ends
 
 //Solution class to implement function largestAndSecondLargest
-class Solution {
+class MaxAndSecondMaxSolution {
 
 	// Function to find largest and second largest element in the array
 	public static ArrayList<Integer> largestAndSecondLargest(int sizeOfArray, int arr[]) {
@@ -55,7 +55,7 @@ class MaxAndSecondMax {
 				arr[index] = Integer.parseInt(elements[index]);
 			}
 
-			Solution obj = new Solution();
+			MaxAndSecondMaxSolution obj = new MaxAndSecondMaxSolution();
 			ArrayList<Integer> res = new ArrayList<Integer>();
 			res = obj.largestAndSecondLargest(sizeOfArray, arr);
 			System.out.println(res.get(0) + " " + res.get(1));
