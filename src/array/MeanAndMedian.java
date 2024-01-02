@@ -1,5 +1,7 @@
 package array;
 
+//link: https://www.geeksforgeeks.org/batch/placement-100-2019/track/DSASP-Arrays/problem/mean-and-median-1587115620
+
 //{ Driver Code Starts
 //Initial Template for Java
 
